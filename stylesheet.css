@@ -1,0 +1,329 @@
+.navbar {
+    font-family: 'Playfair Display', serif;
+    background-color: white;
+}
+
+.navbar-default {
+    transition: 500ms ease;
+    background: transparent;
+
+}
+.navbar-default.scrolled {
+    background-color: white;
+}
+
+.navbar-brand {
+    padding-right: 10px;
+    color: black;
+}
+
+.navbar .navbar-brand {
+    font-size: 38px;
+}
+
+.navbar-brand-default {
+    transition:500ms ease;
+    background: transparent;
+    color: black;
+}
+
+.navbar-brand-default.scrolled {
+    color: #CBBEB5;
+}
+
+
+.navbar-brand:hover {
+    color: #CBBEB5;
+    background-color: white;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: black;
+}
+
+.nav-link-default {
+    transition: 300ms ease;
+    background-color: white;
+    font-size: 37px;
+    color: black;
+    /*margin-right: 10px;*/
+}
+
+.nav-link-default.scrolled {
+    color: #CBBEB5;
+    font-size: 37px;
+    margin-right: 10px;
+    background-color: white; 
+}
+.nav-link-default:hover {
+    background-color: white;
+    color: #CBBEB5;
+    border-bottom: none;
+}
+
+
+.nav-link-default.scrolled:hover {
+    color: #CBBEB5;
+    border-bottom: none;
+}
+
+
+.navbar .navbar-nav .nav-link{
+    font-size: 37px;
+}
+
+
+.navbar .navbar-nav .nav-link:hover{
+    background-color: white;
+    color: #CBBEB5;
+}
+
+h1::selection{
+    background-color:#565657;
+}
+
+.background {
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.75;
+}
+
+.icons {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fa-github-square{
+    margin-right: 10px;
+    color: black;
+}
+
+.fa-linkedin-square{
+    margin-left: 10px;
+    color: black;
+}
+.fa-github-square:hover{
+    color:#CBBEB5;
+}
+
+.fa-linkedin-square:hover{
+    color:#CBBEB5;
+}
+
+.container {
+    font-family: 'PT Serif', serif;
+    padding-bottom: 20px;
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+
+.container .contactMe{
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header::selection{
+    background-color: #ffe9d6;
+}
+
+/*header for the project section*/
+.header h2{
+    font-size: 40px;
+    /*font-family: 'Barlow', sans-serif;*/
+    font-family: 'Raleway', sans-serif;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.header h2::selection{
+    background-color: #ffe9d6;
+}
+
+h3::selection{
+    background-color:#ffe9d6;
+}
+
+p::selection{
+    background-color:#ffe9d6;
+}
+
+
+.intro {
+    margin-top: 5%;
+}
+
+.picture {
+    text-align: right;
+    width: 35%;
+    height: auto;
+    float: right;
+    margin-right: 7%;
+    vertical-align: center;
+    margin-bottom: 4%;
+    margin-left: 5%;
+   
+}
+
+.img-fluid{
+    
+    margin-top: 8%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 75%;
+}
+
+
+.text {
+    margin-top: 17%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family:'Raleway', sans-serif;
+}
+
+.text::selection{
+    background-color:#ffe9d6;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+
+}
+
+/*Clears floats after the columns*/
+.row:after {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.contactMe {
+    text-align: center;
+    margin-top: 2%;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CBBEB5;
+    width: 50%;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.contactMe::selection{
+    background-color:#ffe9d6;
+}
+
+.form-group{
+    width: 50%;
+    display: inline-block;
+}
+
+
+.form-control{
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.form-control::selection{
+    background-color:#ffe9d6;
+}
+
+.btn {
+    background-color: #CBBEB5;
+    border-color: #CBBEB5;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5%;
+    display: inline-block;
+    font-weight: bold;
+
+}
+/*
+.btn:hover{
+    background-color: white;
+    color: #CBBEB5;
+    border-color:white;
+}
+*/
+
+.btn:hover {
+    background-color: #CBBEB5;
+    color: white;
+    border-color: #CBBEB5;
+    opacity: 0.7;
+
+
+}
+
+.card {
+    width: 80%;
+    display: inline-block;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.hover-zoomin a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+/*transition for the tiles when hovering*/
+.hover-zoomin img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.hover-zoomin:hover img {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  /*text inside the project tiles*/
+  .text-white {
+      color: #fff;
+      font-family: 'Abril Fatface', cursive;
+  }
+
+  /*text inside the project tiles when hovered*/
+  .hover-zoomin:hover a h2 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 80px;
+    height: 100%;
+    width: 100%;
+    padding: 45% 20px;
+    text-align: center;
+  }
+   
